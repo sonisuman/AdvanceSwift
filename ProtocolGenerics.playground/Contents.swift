@@ -7,6 +7,20 @@ protocol Parser {
   func parse(input: Input)-> Output
 }
 
+extension Parser {
+  func parse(input: String) -> [String] {
+    return ["<html></html>","<p></p>"]
+  }
+}
+
+class XHTMLParser: Parser {
+  func parse(input: Int) -> [Int] {
+    return [1,2]
+  }
+}
+
+let xhtmlParser = XHTMLParser()
+xhtmlParser.parse(input: 2)
 class TextFileParse: Parser {
   func parse(input: String) -> String {
     return ""
