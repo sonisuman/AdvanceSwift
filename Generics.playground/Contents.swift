@@ -1,6 +1,6 @@
 import UIKit
 
-struct Movie {
+struct Movie: Equatable {
     let name: String
 }
 
@@ -12,7 +12,15 @@ func firstLast<T>(_ list: [T]) -> (T, T) {
     return (list[0], list[list.count - 1] )
 }
 
+func findIndex<T: Equatable>(from list: [T],valueToFind: T) -> Int? {
+  return list.firstIndex {(item) -> Bool in
+    return item == valueToFind
+  }
+}
+
+let batmanmovie = Movie(name: "Batman")
+print(findIndex(from: movies, valueToFind: batmanmovie))
 let (first, last) = firstLast(movies)
 
-print(first)
-print(last)
+//print(first)
+//print(last)
