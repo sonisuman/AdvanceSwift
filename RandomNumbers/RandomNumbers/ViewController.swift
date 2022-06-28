@@ -71,6 +71,32 @@ class ViewController: UIViewController {
     super.viewWillAppear(animated)
     randomLbl.layer.masksToBounds = true
     randomLbl.layer.cornerRadius = 40.0
+    var nums = [0,0,1,1,1,2,2,3,3,4]
+    //[0,0,1,1,1,2,2,3,3,4]
+    //print(removeDuplicates(&nums))
+    print(removeElement(&nums, 2))
+
   }
-}
+  
+ 
+  func removeDuplicates(_ nums: inout [Int]) -> Int {
+    var left = 1
+    for i in 1..<nums.count {
+      if nums[i] != nums[i - 1] {
+        nums[left] = nums[i]
+        left += 1
+      }
+    }
+    return left
+  }
+  
+  func removeElement(_ nums: inout [Int], _ val: Int) -> Int {
+    
+  nums = nums.filter {
+      $0 != val
+    }
+    return nums.count
+      }
+  }
+
 
