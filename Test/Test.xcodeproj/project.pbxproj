@@ -13,6 +13,7 @@
 		E49B3F60286B713C00035C31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E49B3F5E286B713C00035C31 /* Main.storyboard */; };
 		E49B3F62286B714500035C31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49B3F61286B714500035C31 /* Assets.xcassets */; };
 		E49B3F65286B714500035C31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E49B3F63286B714500035C31 /* LaunchScreen.storyboard */; };
+		E49B3F6D286C123700035C31 /* Exercise_iOS (2).pdf in Resources */ = {isa = PBXBuildFile; fileRef = E49B3F6C286C123700035C31 /* Exercise_iOS (2).pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E49B3F61286B714500035C31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E49B3F64286B714500035C31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E49B3F66286B714500035C31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E49B3F6C286C123700035C31 /* Exercise_iOS (2).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Exercise_iOS (2).pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		E49B3F57286B713C00035C31 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				E49B3F6C286C123700035C31 /* Exercise_iOS (2).pdf */,
 				E49B3F58286B713C00035C31 /* AppDelegate.swift */,
 				E49B3F5A286B713C00035C31 /* SceneDelegate.swift */,
 				E49B3F5C286B713C00035C31 /* ViewController.swift */,
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E49B3F65286B714500035C31 /* LaunchScreen.storyboard in Resources */,
+				E49B3F6D286C123700035C31 /* Exercise_iOS (2).pdf in Resources */,
 				E49B3F62286B714500035C31 /* Assets.xcassets in Resources */,
 				E49B3F60286B713C00035C31 /* Main.storyboard in Resources */,
 			);
