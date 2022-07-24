@@ -27,7 +27,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
     super.viewWillAppear(animated)
     decimalNum.text = "\(getRandomDecimalNum())"
   }
-  
+
   func getRandomDecimalNum() -> Int {
     let randomNum = Int.random(in: 0...65535)
     return randomNum
